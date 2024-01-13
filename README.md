@@ -58,7 +58,7 @@ shimmerDuration: Duration(milliseconds: 1500),
 
 ## Screenshots
 
-<img src="https://github.com/OfficialKunalGandhi/flutter_cached_network_image_plus/blob/master/Screenshot.png" alt="Screenshot 1" width="400" height="200"/>
+<img src="https://github.com/OfficialKunalGandhi/flutter_cached_network_image_plus/blob/master/Screenshot.png" alt="Screenshot 1" width="360" height="800"/>
 
 ![Screenshot 1](https://github.com/OfficialKunalGandhi/flutter_cached_network_image_plus/blob/master/Screenshot.png)
 
