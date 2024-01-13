@@ -37,7 +37,7 @@ height: 300,
 )
 ```
 
-# Parameters
+## Parameters
 - imageUrl (required): The URL of the network image.
 - width and height: The dimensions of the image.
 - Other optional parameters for customization.
