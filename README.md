@@ -58,3 +58,6 @@ shimmerDuration: Duration(milliseconds: 1500),
 
 ## Screenshots
 
+![Screenshot 1](https://github.com/OfficialKunalGandhi/flutter_cached_network_image_plus/blob/master/Screenshot.png)
+
+
