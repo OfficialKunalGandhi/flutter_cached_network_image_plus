@@ -58,7 +58,7 @@ class CacheNetworkImagePlus extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
           color: backgroundColor,
-          boxShadow:boxShadow ?? [],
+          boxShadow: boxShadow ?? [],
           borderRadius: BorderRadius.circular(borderRadius ?? 0)),
       clipBehavior: borderRadius == null ? Clip.none : Clip.hardEdge,
       padding: padding,

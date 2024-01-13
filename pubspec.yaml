@@ -1,6 +1,6 @@
 name: cached_network_image_plus
 description: "Effortlessly cache network images, create rounded corners, and apply customizable shadows for a refined look and feel."
-version: 0.0.1
+version: 0.0.3
 homepage: https://github.com/OfficialKunalGandhi/flutter_cached_network_image_plus
 topics:
   - cache

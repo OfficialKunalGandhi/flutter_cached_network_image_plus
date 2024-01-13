@@ -23,8 +23,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("CacheNetworkImagePlus"),
-      centerTitle: true),
+      appBar: AppBar(title: Text("CacheNetworkImagePlus"), centerTitle: true),
       body: SafeArea(
         child: GridView.builder(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -43,10 +42,9 @@ class MyHomePage extends StatelessWidget {
             errorWidget: dataDefault[i].errorWidget,
             boxShadow: [
               BoxShadow(
-                color: Colors.grey.shade600,
-                blurStyle: BlurStyle.outer,
-                blurRadius: 10
-              )
+                  color: Colors.grey.shade600,
+                  blurStyle: BlurStyle.outer,
+                  blurRadius: 10)
             ],
           ),
           itemCount: dataDefault.length,
