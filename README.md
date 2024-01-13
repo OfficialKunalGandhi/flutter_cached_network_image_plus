@@ -15,8 +15,46 @@ Add the following dependency to your `pubspec.yaml` file:
 ```yaml
 dependencies:
   flutter_cached_network_image_plus: ^0.0.1
+```  
+
+## Usage
+
+Import the package:
 
 ```dart
 import 'package:flutter_cached_network_image_plus/flutter_cached_network_image_plus.dart';
+```
 
+Use the `CacheNetworkImagePlus` widget in your Flutter app:
+
+
+```dart
+CacheNetworkImagePlus(
+imageUrl: 'https://example.com/image.jpg',
+width: 300,
+height: 300,
+// Other optional parameters...
+)
+```
+
+# Parameters
+-imageUrl (required): The URL of the network image.
+-width and height: The dimensions of the image.
+-Other optional parameters for customization.
+
+
+## Example
+
+```dart
+CacheNetworkImagePlus(
+imageUrl: 'https://example.com/image.jpg',
+width: 300,
+height: 300,
+shimmerDirection: ShimmerDirection.ltr,
+shimmerDuration: Duration(milliseconds: 1500),
+// Other optional parameters...
+)
+```
+
+## Screenshots
 
