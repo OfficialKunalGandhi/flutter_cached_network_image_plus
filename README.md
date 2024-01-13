@@ -15,3 +15,8 @@ Add the following dependency to your `pubspec.yaml` file:
 ```yaml
 dependencies:
   flutter_cached_network_image_plus: ^0.0.1
+
+```dart
+import 'package:flutter_cached_network_image_plus/flutter_cached_network_image_plus.dart';
+
+
